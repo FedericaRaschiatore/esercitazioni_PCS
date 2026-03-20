@@ -1,0 +1,1 @@
+nell'esercizio 1, riga 14, il programma stampa 0 perchè (&y)[1] = 0; vuol dire entrare nella casella successiva a quella di y e porre uguale a 0, cioè x=0.
