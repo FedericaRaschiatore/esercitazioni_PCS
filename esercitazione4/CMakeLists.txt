@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.20)
+project(esercitazione4)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE CXX FLAGS "${CMAKE CXX FLAGS}-Wall-Wshadow-Werror=vla")
+set(SOURCES timecounter.cpp test_bubble.cpp test_selection.cpp test_insertion.cpp)
+add_executable(esercitazione4 ${SOURCES})
