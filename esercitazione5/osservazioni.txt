@@ -1,0 +1,4 @@
+Testando gli algoritmi mergesort e quicksort su un campione di 100 vettori di dimensioni casuali, si nota che il quick ordina i vettori più velocemente del merge.
+Infatti il sort è più vloce del merge ma più lento del quick.
+Invece testando gli algoritmi su vettori di piccola dimensione (2<N<100) si vede che fino a N=50 gli algoritmi quadratici sono più veloci a causa delle chiamate ricorsive piccole.
+Ma per i vettori con N>50 gli algoritmi logaritmici diventano più vantaggiosi.
